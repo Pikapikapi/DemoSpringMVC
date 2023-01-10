@@ -1,5 +1,9 @@
 # DemoSpringMVC
 
+Notion筆記
+SpringMVC Dispatcher的作用
+https://www.notion.so/Spring-MVC-DispatcherServlet-69d8fb7898ba4be2802709f454efb7e0
+
 簡單的 SpringMVC 實作
 
 1.使用 AnnotationConfig 方法來做 Servlet Mapping 與使用 Bean/Configuration/ComponentScan 標籤，
