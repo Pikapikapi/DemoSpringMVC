@@ -22,10 +22,6 @@ public class AddController {
 	{
 		int result = 0;
 		String error = "";
-		
-		ModelAndView mv = new ModelAndView();
-		mv.setViewName("display");
-		
 		StringCheck sc = new StringCheck();
 		if(!sc.isNumeric(i) || !sc.isNumeric(j)) {
 			error = "Please fulfill all the input!";
@@ -33,6 +29,8 @@ public class AddController {
 			AddService as = new AddService();
 			result = as.add(Integer.parseInt(i), Integer.parseInt(j));
 		}
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("display");
 		mv.addObject("result",result);
 		mv.addObject("error",error);
 		return mv;
