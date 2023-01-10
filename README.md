@@ -7,3 +7,5 @@
 
 2.使用 InternalResourceViewResolver 的前綴後綴分離來將 request 做導向，
 這樣子未來如果要做技術轉移，就不用修改所有文檔相關的文字，只需要修改 config 相關的設定即可。
+
+資料來源:https://www.youtube.com/watch?v=g2b-NbR48Jo
